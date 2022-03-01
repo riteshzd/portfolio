@@ -1,13 +1,9 @@
+import Intro from "./components/introduction/intro"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          We will be online soon
-        </p>
-          Hello world
-      </header>
+    <div>
+      <Intro/>
     </div>
   );
 }
